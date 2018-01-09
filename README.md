@@ -32,6 +32,7 @@ Solo mining is trickier to setup as it involves hosting a mining pool on your lo
 
 *(everything below this point will most likely be simplified some point in the future)*
 9. The window should now say:
+
 	> root@[something]:/#
 
 	If it doesn't, try running `docker attach nompgarlicoin`.
