@@ -11,6 +11,8 @@ Pool mining is much easier to setup rather than solo mining. Here's how to do it
 Example:
 > yacminer --nscrypt --nfmin 10 --nfmax 10 -o **stratum+tcp://123.45.67.8:3333** -u **myfaRqUQcBR2fGF1hNVTqD1UgWxV1zAfpw** -p x -T -I 15
 
+please note that 123.45.67.8 is not a real server
+
 4. Double click "mine.bat"
 5. You now should be mining!
 
