@@ -38,6 +38,14 @@ Solo mining is trickier to setup as it involves hosting a mining pool on your lo
 	> root@[something]:/#
 
 	If it doesn't, try running `docker attach nompgarlicoin`.
+    
+10. Run `nano ~/nomp/pool_configs/garlicoin.conf`
+11. Replace the address with yours. `"address": "myfaRqUQcBR2fGF1hNVTqD1UgWxV1zAfpw",`
+12. Set enabled to **true**:
+	>"paymentProcessing": {
+    >
+    >"enabled": **false**,
+13. Exit nano with ctrl + x, y, enter
 10. To start your pool, issue the following commands:
 	1. `redis-server &`
 	2. `garlicoind -testnet -connect=52.89.91.13 &`
