@@ -23,7 +23,7 @@ please note that 123.45.67.8 is not a real server
 ## Solo mining
 Solo mining is trickier to setup as it involves hosting a mining pool on your local network and then mining to it. Luckily, if you are running Windows 10 Pro, Enterprise, or Education you can just download the Docker image and then run it. If not, you're going to have to wait.
 ### Solo mining (docker setup)
-1. Download and install [Docker](https://www.docker.com/docker-windows).
+1. Download and install [Docker](https://docs.docker.com/engine/installation/).
 2. Press windows key + r and type in "**powershell**" (no quotes).
 3. Run `cd C:\` and `mkdir garlicoin`.
 4. Run `cd garlicoin`.
